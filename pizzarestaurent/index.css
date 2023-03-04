@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    border: 2px sloid red;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 7vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar p{
+    color: white;
+    
+}
+.navbar .nav1{
+    margin: 0 8vw;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}
+.nav2 img{
+    width: 1.5vw;
+    height: 4vh;
+}
+
+
+.header img{
+    height: 85vh;
+    width: 100%;
+    z-index: 0;
+}
+.header div{
+    position: absolute;
+}
+.header .item1{
+    top: 25vh;
+    left: 4vw;
+    font-size: 4vw;
+    width: 35vw;
+    color: white;
+    font-weight: 700;
+}
+.header .item2{
+    top: 50vh;
+    left: 4vw;
+    padding: .2vw;
+    background-color: red;
+    width: 20%;
+
+}
+.header .item3{
+    top: 60vh;
+    left: 4vw;
+    width: 30vw;
+    text-align: justify;
+    color: white;
+}
+.section{
+    background-color: black;
+}
+.middle1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middle1 h1{
+    margin-top: 10vh;
+    color: white;
+}
+.middle1 p{
+    background-color: red;
+    padding: 2px;
+    width: 32vw;
+    margin-top: 1vh;
+}
+.middle2{
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.middle2 img{
+    height: 40vh;
+    
+}
+.sk p{
+    width: 25vw;
+    margin-right: 15vw;
+    color: white;
+}
+.sk .sk1{
+    background-color: red;
+    padding: 1px;
+    margin-bottom: 1vh;
+}
+.middle3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14vh;
+}
+.middle3 h1{
+    color: white;
+}
+.middle3 .para1{
+    background-color: red;
+    padding: 2px;
+    margin-bottom: 1vh;
+    width: 25vw;
+    margin: 7px;
+}
+.middle3 .para2{
+    width: 80vw;
+    color: white;
+    margin-top: 2vh;
+    letter-spacing: 2px;
+    
+}
+
+.mk{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4vh 6vw;
+}
+.mk img{
+    width: 15vw;
+    height: 20vh;
+}
+.mk .mk1{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+.mk p{
+    color: white;
+    margin-left: 15px;
+    width: 18vw;
+    margin-top: 5px;
+}
+.mk .bk{
+    color: #F2C94C;
+}
+
+
+.dk{
+    display: flex;
+    justify-content: center;
+}
+.dk1{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 4vh 10vw;
+}
+.dk1 p, .dk1 span{
+    color: white;
+}
+.dk2 img{
+    margin-top: 3vh;
+    margin-right: 12vw;
+}
+.dk1 para11{
+    padding: 2vh;
+}
+.dk11{
+    margin-top: 2.5vh;
+    margin-bottom:1.5vh;
+}
+.dk11 span{
+    margin-left: 1vw;
+    
+}
+.dk12{
+    display: flex;
+}
+.dk12 p{
+    margin-left: 3vw;
+}
+.dk2 img{
+    width: 28vw;
+}
+.seperate{
+    margin-top: 5vh;
+    color: white;
+    margin-left: 2vw;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom > img{
+    margin: 4vh 4vw;
+}
+.bottom > div{
+    margin: 4vh 25vw;
+}
+.bottom p{
+    color: white;
+}
+.bottom11{
+    display: flex;
+    align-items: center;
+}
+.bottom11 p{
+    margin-left: 1.5vw;
+}
+.bottom12{
+    display: flex;
+    margin-top: 1vh;
+}
+.bottom12 p{
+    margin-left: 1.5vw;
+}
